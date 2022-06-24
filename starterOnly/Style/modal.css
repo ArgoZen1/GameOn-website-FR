@@ -14,7 +14,8 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  background-image: url("background.png");
+  /* on enleve le background-image qui ne sert à rien ici afin d'enlever l'erreur dans la console
+  /* background-image: url("background.png"); */
   font-family: var(--font-default);
   font-size: 18px;
   max-width: 1300px;
@@ -35,10 +36,10 @@ img {
   margin: 3.5%;
 }
 .header-logo {
-    float: left;
+  float: left;
 }
 .main-navbar {
-    float: right;
+  float: right;
 }
 .topnav a {
   float: left;
@@ -69,7 +70,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .topnav a {display: none;}
+  .topnav a {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -77,7 +80,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -90,16 +95,16 @@ img {
   }
 }
 
-
-
- @media screen and (max-width: 540px) {
-  .topnav a {display: none;}
+@media screen and (max-width: 540px) {
+  .topnav a {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
     margin-top: -15px;
   }
-} 
+}
 
 main {
   font-size: 130%;
@@ -111,8 +116,6 @@ main {
   margin: 1px 20px 15px;
   border-radius: 2rem;
   text-align: justify;
-
-
 }
 
 .modal-btn {
@@ -156,7 +159,7 @@ main {
 .smFont {
   font-size: 16px;
 }
-
+/* oook */
 .bground {
   display: none;
   position: fixed;
@@ -167,6 +170,31 @@ main {
   width: 100%;
   overflow: auto;
   background-color: rgba(26, 39, 156, 0.4);
+}
+
+.formConfirmation {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: normal;
+  height: 700px;
+  padding-top: 200px;
+  display: none;
+  margin-top: 150px;
+}
+
+.btn-submit-confirm {
+  background: #fe142f;
+  display: block;
+  margin: 0 auto;
+  margin-top: 330px;
+  border-radius: 7px;
+  font-size: 1rem;
+  padding: 12px 82px;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
 }
 
 .content {
@@ -270,7 +298,10 @@ input[data-error]::after {
   opacity: 0;
 }
 .checkbox-input {
-  display: none;
+  /* Ici, on remplace le diplay: none; par une opacity: 0; 
+  pour ne plus avoir le message d'erreur dans la console afin d'avoir de pouvoir utiliser l'attribut required */
+  /* display: none; */
+  opacity: 0;
 }
 .checkbox-input:checked + .checkbox-label .checkbox-icon::after,
 .checkbox-input:checked + .checkbox2-label .checkbox-icon::after {
@@ -526,4 +557,3 @@ footer {
     opacity: 1;
   }
 }
-
