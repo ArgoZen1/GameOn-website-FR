@@ -29,6 +29,7 @@ p {
 
 img {
   padding-right: 1rem;
+  object-fit: cover;
 }
 
 .topnav {
@@ -37,6 +38,11 @@ img {
 }
 .header-logo {
   float: left;
+}
+@media screen and (max-width: 320px) {
+.header-logo img {
+  width: 85%;
+}
 }
 .main-navbar {
   float: right;
@@ -188,7 +194,7 @@ main {
   background: #fe142f;
   display: block;
   margin: 0 auto;
-  margin-top: 330px;
+  margin-top: 290px;
   border-radius: 7px;
   font-size: 1rem;
   padding: 12px 82px;
@@ -451,7 +457,7 @@ input[data-error]::after {
   color: #fff;
   position: relative;
   text-align: left;
-  min-width: 424px;
+  min-width: 280px;
 }
 .hero-content::after {
   content: "";
@@ -467,9 +473,9 @@ input[data-error]::after {
   z-index: 1;
 }
 .hero-headline {
-  font-size: 6rem;
+  font-size: 5.5rem;
   font-weight: normal;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 .hero-text {
   width: 146%;
@@ -526,7 +532,7 @@ footer {
     display: none;
   }
   .hero-headline {
-    font-size: 4.5rem;
+    font-size: 3rem;
     white-space: normal;
   }
   .hero-text {
