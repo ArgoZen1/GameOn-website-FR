@@ -22,7 +22,7 @@ const modalBody = document.querySelector('.modal-body');
 const firstTown = document.getElementById('location1').checked = true;
 
 // pour que les conditions générales soient cochées par defaut.
-const checkBox1 = document.querySelector('#checkbox1').checked = true;
+const checkBox1 = document.querySelector('#checkbox1')
 
 //ciblage de l'id des conditions générales
 const checkbox1 = document.querySelector('#checkbox1');
