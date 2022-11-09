@@ -3,7 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=argozen1&label=Profile%20views&color=0e75b6&style=flat" alt="argozen1" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=argozen1" alt="argozen1" /></a> </p>
 
 - 🌱 j'ai appris **Les formulaires en JavaScript**
 
