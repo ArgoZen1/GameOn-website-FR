@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/95536872/200812216-9663b098-1b2d-4f81-9def-9bf9828f93ff.png)
+
+
 <h1 align="center">Voici GameOn</h1>
 <h3 align="center">Créez une landing page avec Javascript</h3>
 
